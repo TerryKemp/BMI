@@ -1,3 +1,5 @@
+console.log("js ;inked")
+
 function computeBMI() {
     //Obtain user inputs
    var height = Number(document.getElementById("height").value);
@@ -18,5 +20,4 @@ document.getElementById("output").innerHTML = Math.round(BMI * 100)/100;
    if (BMI >= 18.5 && BMI <= 25) document.getElementById("comment").innerHTML = "Normal";
    if (BMI >= 25 && BMI <= 30) document.getElementById("comment").innerHTML = "Obese";
    if (BMI > 30) document.getElementById("comment").innerHTML = "Overweight";
-   document.getElementById("answer").value = output;
 }
